@@ -1,0 +1,424 @@
+#intro {
+   max-width: 100%;
+   background-color: #cddbfe;
+}
+
+body {
+   font-family: "Pixelify Sans", sans-serif;
+   text-align: center;
+   background-color: #ffc2d9;
+   font-size: min(24pt);
+}
+
+input[type=text],
+select {
+   font-family: "Pixelify Sans", sans-serif;
+   width: 30%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   background: #ccdcfc;
+   display: inline-block;
+   border: 2px solid #000;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+#q1img {
+   display: flex;
+   justify-content: center;
+}
+
+.q1 {
+   position: relative;
+}
+
+.q1bg {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.pet {
+   position: absolute;
+   object-fit: cover;
+}
+
+.C {
+   top: 22%;
+   left: 19%;
+   width: 27%;
+}
+
+.D {
+   top: 21%;
+   left: 55%;
+   width: 26%;
+}
+
+.q2C {
+   position: relative;
+
+}
+.q2D {
+   position: relative;
+
+}
+
+.q2bg {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.cats {
+   position: absolute;
+   object-fit: cover;
+   top: 53%;
+   width: 15%;
+}
+
+.dogs {
+   position: absolute;
+   object-fit: cover;
+   top: 52.5%;
+   width: 14.5%;
+}
+
+.Cc1 {
+   left: 10.5%;
+}
+
+.Cc2 {
+   left: 32%;
+}
+
+.Cc3 {
+   left: 54.5%;
+}
+
+.Cc4 {
+   left: 76%;
+}
+
+.Dc1 {
+   left: 10.5%;
+}
+
+.Dc2 {
+   left: 32%;
+}
+
+.Dc3 {
+   left: 54.5%;
+}
+
+.Dc4 {
+   left: 76%;
+}
+
+.q3C {
+   position: relative;
+
+}
+
+.q3D {
+   position: relative;
+
+}
+
+.q3bg {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.outfit {
+   position: absolute;
+   object-fit: cover;
+   width: 15%;
+}
+
+.CoC {
+   top: 53%;
+   left: 9.5%;
+}
+
+.CoA {
+   top: 53%;
+   left: 31.5%;
+}
+
+.CoD {
+   top: 53%;
+   left: 54.5%;
+}
+
+.CoT {
+   top: 53%;
+   left: 76%;
+}
+
+.DoC {
+   top: 50.5%;
+   left: 9.5%;
+}
+
+
+.DoA {
+   top: 50.5%;
+   left: 31.5%;
+}
+
+.DoD {
+   top: 50.5%;
+   left: 54.5%;
+}
+
+.DoT {
+   top: 50.5%;
+   left: 76%;
+}
+
+.q4 {
+   position: relative;
+
+}
+
+.q4bg {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.accessory {
+   position: absolute;
+   object-fit: cover;
+}
+
+.a1 {
+   top: 55%;
+   left: 10%;
+}
+
+.a2 {
+   top: 58%;
+   left: 32%;
+}
+
+.a3 {
+   top: 51%;
+   left: 54%;
+}
+
+.a4 {
+   top: 52%;
+   left: 76%;
+}
+
+.q5 {
+   position: relative;
+
+}
+
+.q5bg {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.toy {
+   position: absolute;
+   object-fit: cover;
+}
+
+.t1 {
+   top: 52%;
+   left: 10%;
+   width: 15%
+}
+
+.t2 {
+   top: 50%;
+   left: 32%;
+   width: 13%
+}
+
+.t3 {
+   top: 54%;
+   left: 56.6%;
+   width: 10%
+}
+
+.t4 {
+   top: 57%;
+   left: 78%;
+   width: 11%
+}
+
+#catclick,
+#dogclick {
+   margin-top: 20%;
+   max-width: 40%;
+}
+
+.accessory {
+   width: 15%;
+}
+
+.product {
+   max-width: 100%;
+   object-fit: cover;
+   position: relative;
+}
+
+.box {
+   position: relative;
+   width: 60%;
+   height: 60%;
+   opacity: 0%;
+
+}
+
+.Rcolor {
+   position: absolute;
+   width: 25%;
+}
+
+#PCblack {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PCwhite {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PCbeige {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PCgrey {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDcorgi {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDhusky {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDshepherd {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDwhite {
+   top: 33%;
+   right: 27.5%;
+}
+
+.Routfit {
+   position: absolute;
+   width: 25%;
+}
+
+#PCcowboy {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PCangel {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PCdress {
+   top: 33%;
+   right: 28.5%;
+}
+
+#PCtux {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDcowboy {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDangel {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDdress {
+   top: 33%;
+   right: 27.5%;
+}
+
+#PDtux {
+   top: 33%;
+   right: 27.5%;
+}
+
+
+.Raccessory {
+   position: absolute;
+}
+
+#Pcowboyhat {
+   top: 33%;
+   right: 39%;
+   width: 10%;
+}
+
+#Phalo {
+   top: 25%;
+   right: 40%;
+   width: 10%;
+}
+
+#Pflower {
+   top: 36.5%;
+   right: 39%;
+   width: 5%;
+}
+
+#Ptophat {
+   top: 26%;
+   right: 40%;
+   width: 10%;
+}
+
+.Rtoy {
+   position: absolute;
+   width: 8%;
+}
+
+#Pmouse {
+   top: 58%;
+   right: 52%;
+}
+
+#Pyarn {
+   top: 58%;
+   right: 52%;
+}
+
+#Pball {
+   top: 58%;
+   right: 52%;
+}
+
+#Pbone {
+   top: 63%;
+   right: 52%;
+}
